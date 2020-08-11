@@ -59,6 +59,11 @@ double avg(int a, int b) {
 		avg = sum / k;
 		return avg;
 	}
+	else if (a = b)
+	{
+		avg = (a + b) / 2;
+		return avg;
+	}
 }
 
 double SD(int a, int b) {
@@ -83,6 +88,11 @@ double SD(int a, int b) {
 			k++;
 		}
 		SD = sqrt(sumSD / (k-1.0));
+		return SD;
+	}
+	else if (a = b)
+	{
+		SD = 0;
 		return SD;
 	}
 
